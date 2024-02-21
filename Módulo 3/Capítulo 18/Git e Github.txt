@@ -1,0 +1,12 @@
+O que é Git?
+
+Git é um software cuja função e gerenciar e salvar versões diferentes de um mesmo arquivo, criado pelo criador do Linux. (Repositório Local)
+
+O que é GitHub?
+
+Serve para realizar um backup de determinados dados na nuvem, podendo ser utilizado para hospedar sites gratuitamente. (Repositório Remoto)
+
+MEU PERFIL DO GITHUB: fsantosandrade
+EMAIL ALTERNATIVO GITHUB: 160565775+fsantosandrade@users.noreply.github.com.
+
+SITE PARA CRIAR QRCODES: qr-code-generator.com
