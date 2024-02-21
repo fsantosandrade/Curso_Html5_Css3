@@ -1,0 +1,22 @@
+A diferença do id para o class são algumas, por exemplo:
+
+- O id possui preferência acima do class, ou seja, as configurações do id sobrepõem as do class.
+
+- É possível possuir id e class na mesma tag
+- Só se pode ter o msm id UMA única vez por página html
+- É possível possuir mais de um mesmo class por página
+- É possível possuir mais de uma class na mesma tag separando por espaços
+
+IDENTIFICAÇÃO:
+
+Id    - Identificado no css por "#"
+Class - Identificado no css por "."
+
+Elemetos Filhos:
+São elementos que estão contidos dentro de outros elementos, denominados no css pelo elemento principal seguido por ">" e o elemento contido.
+
+Pseudo Classe:
+São palavras relacionadas a uma tag, denominados no css por ":", e serve para definir estados de elementos dentro da html.
+
+Pseudo Elementos:
+Agem nas classes, elementos ou ids e mechem diretamente no conteúdo periférico do elemento, denominados por "::".

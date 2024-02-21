@@ -1,0 +1,5 @@
+Formatos:
+
+jpeg - Alta compactação, Não permite transparência, Não permite animação
+png - Compactação menor, Maior qualidade, Permite transparência, Não permite animação
+gif - Permite animação

@@ -1,0 +1,6 @@
+No HTML5 os padrões de vídeos mais suportados são os:
+
+- mp4/m4v
+- webm
+- ogv
+

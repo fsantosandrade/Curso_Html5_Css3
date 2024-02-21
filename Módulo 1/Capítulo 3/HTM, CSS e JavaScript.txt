@@ -1,0 +1,6 @@
+HTML: HyperText Markup Language - Focada em CONTEÚDO (textos, imagens, vídeos...)
+CSS: Cascading Style Sheets - Focada em DESIGN (cores, sombras, tamanhos...)
+
+front-end: Lado do cliente
+back-end: Lado do servidor
+full-stack: Ambos

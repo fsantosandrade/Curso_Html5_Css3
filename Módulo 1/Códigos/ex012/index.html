@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Vídeos Hospedados Localmente</h1>
+    <h2>Primeira forma</h2>
+    <video src="midia/Video.mp4" width="490" poster="midia/capa.png" controls></video>
+    <h2>Segunda forma</h2>
+    <video width="490" poster="midia/capa.png" controls>
+        <source src="midia/Video.mkv" type="video/mp4">
+        <source src="midia/Video.mp4" type="video/mp4">
+        <source src="midia/Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de video!</p>
+    </video>
+    <h1>Vídeos Inseridos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i4F0EKqtSB4?si=aQqTS6GX17aK_QRP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

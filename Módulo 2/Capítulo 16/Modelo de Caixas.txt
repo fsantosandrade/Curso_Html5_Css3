@@ -1,0 +1,28 @@
+Todo elemento visual no html esta sendo exibido em uma "caixa" e possui as seguintes configurações:
+
+height - altura
+width - largura
+border - borda
+padding - aumento do elemento (espaço interno)
+margin - aumento do elemento depois da borda (espaço externo)
+outline - contorno fora do elemento
+
+Tipos de Caixas:
+
+* box-level: Quebra a linha antes de iniciar, ocupa toda a largura do viewport e, assim que acaba, quebra novamente a linha antes de continuar.
+
+* inline-level: Não quebra a linha antes de iniciar, não ocupa toda a largura e, ao final, não quebra a linha antes de continuar.
+
+GROUPING TAGS:
+
+Grouping tags são tags de divs semânticas, usadas para realizar e organizar seu site de uma melhor forma. São elas:
+
+<header> - Cabeçalho
+<nav> - Menu
+
+<main> - Conteúdo principal do site
+<section> - Sessões diferentes de conteúdos
+<article> - Artigo
+<aside> - Conteúdo periférico ao artigo
+
+<footer> - Rodapé

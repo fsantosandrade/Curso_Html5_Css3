@@ -1,0 +1,24 @@
+Na internet a representação de dados é dada por números binários (0 e 1) ou bit e, a porção mínima de bits para se representar alguma informação é 8, chamada de byte.
+
+UTF-8?
+
+1 byte = 8 bit
+1024 bytes = 1KB
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
+
+MB (mega byte) DIFERENTE Mb (mega bit)
+
+MODEM:
+
+Um modem é o aparelho responsável pelas funções:
+
+modulação - Transforma as ondas quadradas em ondas senoidais
+demodulação - Transforma as ondas senoidais em ondas quadradas
+
+Servidor DNS (Domain name sistem): São servidores responsáveis por fazer a ligação de um nome a um indereço IP. 

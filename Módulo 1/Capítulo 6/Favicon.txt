@@ -1,0 +1,7 @@
+Favicon são os ícones pequenos que aparecem na janela de exibição do site
+
+Sites úteis:
+
+* iconarchive - Baixar ícones
+* favicon.cc - Desenhar ícones
+* favicon.io - Transforma formatos para ico

@@ -1,0 +1,23 @@
+Links são divididos em externos e internos
+
+No caso dos externos se utiziliza a tag <a> com o endereço do site desejado dentro do parâmetro href.
+
+No caso dos internos se utiliza a tag <a> com o nome do arquivo dentro do parâmetro href.
+
+Obs: Para voltar uma pasta se utiliza ../
+
+Parâmetro rel e target
+
+*rel para indicar uma próxima página - rel='next'
+*rel para indicar uma página anterior - rel='prev'
+*rel para indicar que você não da o seu aval para aquela referência - rel='nofollow'
+*rel para indicar que o link leva para um site externo - rel='external'
+
+*target para abrir uma outra janela - target='_blank'
+*target para páginas extras dentro do mesmo site - target='_self
+
+Links de Download
+
+Utilize a tag normal com o href com o endereço do arquivo, o "download" com o nome do arquivo e usa o "type" com o código referente ao tipo do arquivo.
+
+Dica: utilize o site iana.org/assignments/media-types/

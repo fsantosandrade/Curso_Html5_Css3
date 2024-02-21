@@ -1,0 +1,48 @@
+Tipografia - týpos graphía
+
+O termo tipografia surgiu no século 15, com especialistas chamados monges copistas, cuja função era copiar livros a mão. Isso até 1450, quando Johannes Gutenberg inventou a prensa mecânica de tipos móveis, utilizada para copiar páginas mais rápido com uma espécie de carimbo.
+
+Com esses estudos a tipografia surgiu, com a necessidade de estudar melhores formas de se escrever e com melhor aproveitamento de espaço.
+
+Anatomia do Tipo
+
+- Altura x: todas as letras minúsculas de uma fonte são baseadas na altura da letra x
+- Altura das maiúsculas: altura das letras maiúculas baseada na altura x
+- Altura ascendente: vazamento das letras minúsculas para cima
+- Altura descendente: vazamento das letras minúsculas para baixo
+- Altura do corpo: altura total.
+
+Anatomias Geométricas
+
+- Haste: Parte reta e longa de uma letra
+- Filete: Pequena "haste" que une duas hastes ou arcos
+- Arco: Uma "haste" curvada num arco
+- Esporão: Um pequeno salto para "sustentar" uma letra
+- Vértice: Parte pontuda do topo do "A" e da parte inferior do "V"
+- Terminal: Um elemento que não está preso a outro lugar
+- Braço: Parte que geralmente sai de uma haste para cima
+- Perna: Parte que sai de um braço ou haste para baixo
+- Pé: Parte que sustenta a letra (É onde estão as serifas caso aja alguma)
+- Espinha: Nome dado as curvas presentes na letra "S"
+- Barriga: A junção de dois arcos
+- Olho: Espaço vazio fechado por todos os lados
+- Orelha: Pequeno membro no topo da letra
+- Cauda: Pequeno membro no inferior da letra 
+- Serifas: espaço adjascente de algumas fontes e serve para guiar e facilitar a leitura 
+
+O que é Fonte?
+
+Uma fonte é formada por um conjunto de letras completas, chamadas de glifos.
+
+Categorias de Fonte:
+
+Serifadas - Possuem serifas
+Sans-serif - NÃO possuem serifas
+Monoespaçadas - Podem ter ou não serifas e todos os glifos possuem a mesma largura
+Handwriting - Simula uma letra escrita a mão
+Display - Não possui nenhuma das características acima, não seguindo as regras padrão
+
+SITE PARA COMBINAÇÕES SEGURAS DE FONTES: https://techbrood.com/en/cssref?p=css-websafe-fonts 
+SITE PARA INCORPORAR FONTES GRATUITAS: google fonts
+SITE PARA BAIXAR FONTES: dafont.com
+SITE PARA IDENTIFICAR FONTES DE IMAGENS: whatfontis.com

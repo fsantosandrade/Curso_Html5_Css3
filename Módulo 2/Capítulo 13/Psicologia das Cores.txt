@@ -1,0 +1,46 @@
+Cores e a harmonia entre elas são extremamente importantes para a identidade visual de um site.
+
+Um círculo cromático rgb pode ser dividido em 13 cores, divididas entre primárias, secundárias e terciáreas, sendo elas:
+
+Cores PRIMÁRIAS:
+
+- Amarelo
+- Vermelho
+- Azul
+
+Cores SECUNDÁRIAS:
+
+- Laranja
+- Verde 
+- Violeta
+
+Cores Terciárias:
+
+- Amarelo-esverdeado
+- Amarelo-alaranjado
+- Vermelho-alaranjado
+- Vermelho-arroxeado
+- Azul-arroxeado
+- Azul-esverdeado
+
+Uma paleta de cores de um site geralmente é escolhida de 3 a 5 cores no máximo, sendo 4 cores o recomendado (desconsiderando branco e preto).
+
+Cores COMPLEMENTAR: São cores que se contrastam bem. Para saber veja a cor no círculo cromático diretamente oposta a cor escolhida.
+
+Cores ANÁLOGAS: São as cores "irmãs", aquelas diretamente ao lado da cor escolhida. 
+
+Cores ANÁLOGAS RELACIONADAS. Se utiliza pegando duas cores irmãs como cores principais e, logo após, pula uma cor para qualquer direção no círculo cromático e pega mais uma cor com um leve contraste.
+
+Cores INTERCALADAS: É uma paleta formada pegando uma cor como principal e, logo após, pulando x quantidades de cores, escolhendo mais uma. Esse processo é refeito com a mesma quantidade de passos, completando 3 cores. A paleta intercalada pode ser dividida em algumas conhecidas:
+
+Cores triádicas - Intercaladas pulando 3 cores. 
+Cores em quadrado - Intercaladas pulando 2 cores.
+
+Cores TETRÁDICAS: Paleta formada pegando duas cores principais e a cor complementar de cada uma delas.  
+
+MONOCROMIA: Paleta formada por uma cor principal e variações dela, modificando sua saturação e luminosidade.
+
+SITE BOM PARA CRIAR PALETAS: color.adobe.com 
+SITE PARA TESTAR PALETAS: palleton.com
+SITE PARA RANDOMIZAR PALETAS: coolors.co
+EXTENSÃO BOA PARA COPIAR CORES: colorzilla

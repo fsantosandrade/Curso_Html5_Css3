@@ -1,0 +1,13 @@
+Para que as pessoas acessem um site que você criou é necessário um domínio que fará a ponte com o servidor DNS e um lugar para a hospedagem.
+
+Domínio: É o nome único que identifica o seu site
+Hospedagem: O local onde seu site está armazenado
+
+URL:
+
+www.github.com/gustavoguanabara
+
+github.com - Domínio
+.com - TLD
+www - sub-domínio
+gustavoguanabara - Caminho

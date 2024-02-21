@@ -1,0 +1,16 @@
+Endereços importantes:
+
+- Github.com/gustavoguanabara
+- gustavoguanabara.github.io
+
+A história da internet
+
+A internet surgiu durante a Guerra Fria e para cumprir objetivos.
+
+Durante a Guerra Fria a União Soviética saiu na frente na disputa, lançando o primeiro satélite na órbita da Terra: O Sputnik que, essencialmente não tinha funções na guerra além de ser um teste porém, alarmou os EUA. Então o presidente Dwight Eisenhower fundou a Darpa, uma agência para estudos de tecnologias para a guerra.
+
+A DARPA então em suas pesquisas desenvolveu uma forma de armazenar dados de forma mais segura, criando uma pequena rede: A Arpanet, para comunicar os computadores da época entre si e realizar um backup dos dados, porém com a diferença de computadores foi criado um protocolo chamado NCP que falava uma única linguagem porém, com o crescimento da rede mais dois protocolos foram criados: O TCP e o IP. Foi então que juntando os dois trabalhos surgiu o TCP/IP, usado até hoje. 
+
+Logo após a Arpanet foi dividida entre a Milnet (a parte militar), a NSFNET (a parte científica) e as comerciais porém, elas ainda queriam possuir uma forma de comunicação entre si, uma Interconnect Networking, ou Internet. 
+
+Html: É uma linguagem de marcação para hiper textos sensíveis, criado por Tim Berners-Lee.
