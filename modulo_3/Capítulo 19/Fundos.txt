@@ -1,0 +1,16 @@
+Alguns códigos importantes para mexer com imagens de fundo:
+
+background-color - Muda a cor do site
+background-image - Coloca uma imagem de fundo do site
+backgrou-position - Define o posicionamento da imagem
+background-repeat - Define se a imagem vai ou não se repetir e como (no-repeat, repeat)
+background-size - Define o tamanho da imagem em contain (a imagem não é cortada e tenta ocupar todo o espaço) e cover (a imagem ocupa tudo sendo cortada pra se adaptar)
+background-attachment (fixed) - Fixa a imagem no fundo do site, movendo apenas o resto
+
+Shorthand - background
+
+ORDEM: color > image > position > repeat > [size] > attachment
+
+background: black url() center center no-repeat cover fixed;  
+
+Obs: Faça o size separado para o funcionamento correto
