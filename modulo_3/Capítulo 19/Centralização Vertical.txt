@@ -1,0 +1,7 @@
+Para alinhar algo na vertical você primeiro precisa se algo contendo esse conteúdo e seguir esses paços:
+
+É necessário ter no:
+
+Container - position relative
+
+Conteúdo - position absolute, left, top e um transform: translate(valor negativo do left e top) 

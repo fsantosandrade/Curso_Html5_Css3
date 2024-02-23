@@ -14,3 +14,4 @@ ORDEM: color > image > position > repeat > [size] > attachment
 background: black url() center center no-repeat cover fixed;  
 
 Obs: Faça o size separado para o funcionamento correto
+
