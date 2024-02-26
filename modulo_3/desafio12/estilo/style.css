@@ -54,19 +54,22 @@ article {
 
 .parallax1 > p, .parallax2 > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.521);
     color: white;
     padding: 10px;
+    text-shadow: 1px 1px black;
 }
 
 .parallax1 {
     background: url(../imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.521);
 }
 
 .parallax2 {
     background: url(../imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.521);
 }
 
 footer {
