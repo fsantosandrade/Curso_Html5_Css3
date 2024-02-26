@@ -36,10 +36,9 @@ header > p > a:hover {
 }
 
 main {
-    
     font-family: sriracha, sans-serif;
     background-color: white;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 100%;
 }
 
