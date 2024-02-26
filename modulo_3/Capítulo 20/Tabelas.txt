@@ -1,0 +1,41 @@
+Tabelas podem ser utilizadas no html, principalmente para a representação de dados. Elas seguem a seguinte hierarquia:
+
+Tabelas Simples:
+
+<table> - tag principal para criar a tabela
+<tr> (table row) - tag para criar uma linha na tabela
+<th> (table header) - tag para criar um cabeçalho na linha
+<td> (table data) - tag para criar um dado
+
+EXEMPLO:
+
+<table>
+	<tr>
+		<td>DADO1</td>
+	</tr>
+</table>
+
+Tabelas Grandes (semânticas):
+
+<table> - tag principal para criar a tabela
+<caption> - tag para o título da tabela
+<thead> - tag para o cabeçalho da tabela
+<tbody> - tag para o corpo da tabela
+<tfoot> - tag para o rodapé da tabela
+
+
+Efeito Zebrado em Tabelas:
+
+utilize a pseudo classe nth-child() com os seguintes condicionais:
+
+xn - Para pular x quantidades de linhas
+odd - Para as linhas ímpares (2n-1)
+even - Para as linhas pares (2n)
+
+
+Alinhamentos:
+
+Para determinar o alinhamento de determinado dado temos dois comandos:
+
+* text-align: Alinhamento HORIZONTAL (right, left e center)
+* vertical-align: Alinhamento VERTICAL (top, bottom e middle) 
