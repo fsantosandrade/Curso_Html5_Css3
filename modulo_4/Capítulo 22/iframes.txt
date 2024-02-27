@@ -1,0 +1,5 @@
+O que é um iframe?
+
+Ao contrário do que muitos pensam que um iframe não é um "frame" melhorado mas não, é um frame inline, vamos chamar de "quadro em linha".
+
+São pequenos frames que exibem endereços já abertos como num a pequena janela. Por padrão possuem tamanho de 300x150 pixels.
