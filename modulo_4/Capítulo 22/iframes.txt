@@ -3,3 +3,17 @@ O que é um iframe?
 Ao contrário do que muitos pensam que um iframe não é um "frame" melhorado mas não, é um frame inline, vamos chamar de "quadro em linha".
 
 São pequenos frames que exibem endereços já abertos como num a pequena janela. Por padrão possuem tamanho de 300x150 pixels.
+
+PROTEÇÃO DE IFRAMES:
+
+para tornar iframes mais seguros podemos utilizar dois parâmetros dentro do iframe:
+
+* sandbox - Pode receber sandbox como padrão
+* referrerpolicy - Pode receber no-referrer como padrão
+
+Exemplos de sites que utilizam de iframes:
+
+- Youtube
+- Vimeo 
+- Google maps
+- Google docs 
