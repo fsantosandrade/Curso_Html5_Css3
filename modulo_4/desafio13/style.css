@@ -28,27 +28,33 @@ div#tel {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-div#tel > img {
-    display: block;
-    margin: auto;
+    background: url(imagens/frame-iphone.png) center center no-repeat fixed;
 }
 
 iframe {
-    background-color: brown;
-    width: 200px;
-    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 265px;
+    height: 468px;
 }
 
 div#bot {
-    background-color: aqua;
     text-align: right;
     padding: 30px 3px 0 0;
 }
 
 div#bot > a > img {
-    width: 40px;
-    height: 40px;
-    padding-bottom: 5px;
+    width: 50px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    box-sizing: border-box;
+}
+
+div#bot > a > img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    transform: translate(-3px, 3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    transition: transform 0.1s;
 }
