@@ -3,8 +3,7 @@ Formulários são utilizados para a criação de campos para o preenchimento de 
 Anatomia de Formulários:
 
 <form> - tag para a criação de um formulário
-<input> - tag para a criação dos campus de preenchimento e botões
-<label> - tag usada para criar uma relação entre uma palavra e um input (com o id).
+(tag qualquer) - Pode-se usar <input>, <select> ou <
 <fieldset> - tag para agrupar vários campos
 <legend> - tag para dar um título ao fieldset
 
@@ -15,6 +14,8 @@ Primeiro método: Quando não colocamos método nenhum o padrão é acionado, ch
 Obs: Quando você envia dados por GET so é possíevl enviar 3000 bytes (letras).
 
 Segundo método: Utilizando o parâmetro "method" e expecificando POST ao invés de GET o método muda, não aparecendo mais na url. Utilize quando solicitar dados sensíveis ou quando precisar que seus formulários enviem fotos ou outros tipos de arquivos.
+
+- INPUTS: São pequenos campos, com diversas funcionalidades para o envio de informações em formulários. Utiliza-se a tag <input> para a criação dos campus de preenchimento e botões junto à tag <label> usada para criar uma relação entre uma palavra e um input (com o id).
 
 Types de Inputs:
 
@@ -41,3 +42,19 @@ Parâmetro de Input:
 * placeholder - Preenche um campo com uma dica para o usuário
 * autocomplete - Delimita a categoria e para que aquele campo será utilizado (TAG FORM)
 * step - Diz quanto um número aumenta
+
+- SELECT: São campos que não permitem a digitação e, no lugar, permitem um número de escolhas determinadas. Utiliza-se a tag <select> para a criação junto à tag <option> para a criação das opções.
+
+Obs: A tag <optgroup> também pode ser utilizada para criar pequenos títulos para as opções usando o parâmetro "label".
+
+- DATALIST: Assim como o select as data list listam opções e permitem as escolhas delas, com o diferencial de que permitem também que o usuário digite. Crie normalmente um campo usando input e utilize a tag <datalist> para a criação da lista opcional junto à tag <option> para a criação das opções.
+
+Obs: Dê um id para a datalist e use o parâmetro "list" no input com o id da datalist.
+
+- TEXTAREA: Cria um grande campo que permite o usuário digitar uma grande mensagem de tamanho indeterminado. Utilize a tag <textarea> para a criação do campo.
+
+Obs: Devido o tamanho indeterminado evite utilizar o método get.
+
+- OUTPUT: Serve para mostrar informações na tela, não alteráveis pelo usuário. Utilize a tag <output> junto a um id.
+
+Obs: As informações do output não seram enviadas no envio do formulário, são apenas para a visualização do usuário.
