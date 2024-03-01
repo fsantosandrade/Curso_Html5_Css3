@@ -1,0 +1,40 @@
+Formulários são utilizados para a criação de campos para o preenchimento de informações.
+
+Anatomia de Formulários:
+
+<form> - tag para a criação de um formulário
+<input> - tag para a criação dos campus de preenchimento e botões
+<label> - tag usada para criar uma relação entre uma palavra e um input (com o id).
+<fieldset> - tag para agrupar vários campos
+<legend> - tag para dar um título ao fieldset
+
+Métodos de envio de formulários:
+
+Primeiro método: Quando não colocamos método nenhum o padrão é acionado, chamado de método GET, exibindo os dados na url. Utilize quando não estiver solicitando dados sensíveis ou quando você quiser que a url seja compartilhável.
+
+Obs: Quando você envia dados por GET so é possíevl enviar 3000 bytes (letras).
+
+Segundo método: Utilizando o parâmetro "method" e expecificando POST ao invés de GET o método muda, não aparecendo mais na url. Utilize quando solicitar dados sensíveis ou quando precisar que seus formulários enviem fotos ou outros tipos de arquivos.
+
+Types de Inputs:
+
+* type submit - Para botões de enviar formulários
+* type reset - Para botões de limpar os campos preenchidos
+* type password - Cria campos que escondem os caracteres digitados
+* type text - Campo que aceita valores do tipo strings
+* type number - Campo que aceita valores do tipo number apenas
+* type month - Cria um campo expecífico para mês e ano
+* type date - Cria um campo expecífico para a data completa
+* type time - Cria um campo expecífico para as horas e minutos
+* type checkbox - Cria uma pequena caixa marcável
+* type radio - Cria um pequeno círculo marcável com uma opção marcada (mesmo nome)
+
+Parâmetro de Input:
+
+* required - Torna o campo obrigatório
+* minlength - Diz o mínimo de caracteres
+* maxlength - Diz o máximo de caracteres
+* size - Torna o campo do tamanho suficiente para caber x letras
+* placeholder - Preenche um campo com uma dica para o usuário
+* autocomplete - Delimita a categoria e para que aquele campo será utilizado (TAG FORM)
+* step - Diz quanto um número aumenta
