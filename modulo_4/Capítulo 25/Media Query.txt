@@ -1,0 +1,10 @@
+Media Queries são tecnologias que visam disponibilizar a visualização de sites de maneiras diferentes e adaptadas para diferentes tipos de consumo dessa mídia, como por exemplo telas de tamanhos variados.
+
+Uma media query é implementada quando criamos no html um link para um arquivo css. Nele você escolhe o nome do arquivo normal e, logo após, utiliza o parâmetro "media", que pode receber as seguintes orientações.
+
+* all - Serve para todas as visualizações
+* screen - 
+* (orientation: portrait) - Serve para telas no modo retrato
+* (orientation: landscape) - Serve para telas no modo paisagem
+
+Obs: Isso tudo pode ser condensado em um único arquivo css, dentro ou fora do html, utilizando o @media e utilizando um único link junto ao @media respectivamente. 
