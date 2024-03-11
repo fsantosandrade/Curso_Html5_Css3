@@ -1,3 +1,5 @@
+MEDIA QUERY
+
 Media Queries são tecnologias que visam disponibilizar a visualização de sites de maneiras diferentes e adaptadas para diferentes tipos de consumo dessa mídia, como por exemplo telas de tamanhos variados.
 
 Uma media query é implementada quando criamos no html um link para um arquivo css. Nele você escolhe o nome do arquivo normal e, logo após, utiliza o parâmetro "media", que pode receber as seguintes orientações.
@@ -8,3 +10,7 @@ Uma media query é implementada quando criamos no html um link para um arquivo c
 * (orientation: landscape) - Serve para telas no modo paisagem
 
 Obs: Isso tudo pode ser condensado em um único arquivo css, dentro ou fora do html, utilizando o @media e utilizando um único link junto ao @media respectivamente. 
+
+MOBILE FIRST
+
+Mobile first é, basicamente e essencialmente, criar seus sites pensando PRIMEIRO nos dispositivos móveis pois, dessa forma, você ganha diversas vantagens, como tirar a necessidade de tirar elementos do seu site para caber nos dispositivos, a otimização do seu site e dos mecanismos de busca e etc.
