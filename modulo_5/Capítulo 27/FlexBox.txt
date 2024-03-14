@@ -1,0 +1,8 @@
+Flexible Box Module - FlexBox (container flexível)
+
+No Flexbox nós trabalhamos com caixas da mesma forma da qual já é o costume porém, no FlexBox, não pe definido exatamente o tamanho da caixa em questão, apenas uma base, o que definirá seu tamanho é o conteúdo e seu container.
+
+Utilize o FlexBox da seguinte maneira base:
+
+Caixa container - Utilize display flex
+Caixa(s) item - Utilize Flex auto
