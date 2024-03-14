@@ -14,3 +14,9 @@ Obs: Isso tudo pode ser condensado em um único arquivo css, dentro ou fora do h
 MOBILE FIRST
 
 Mobile first é, basicamente e essencialmente, criar seus sites pensando PRIMEIRO nos dispositivos móveis pois, dessa forma, você ganha diversas vantagens, como tirar a necessidade de tirar elementos do seu site para caber nos dispositivos, a otimização do seu site e dos mecanismos de busca e etc.
+
+ÍCONES:
+
+Utilize: <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+Junto ao: <i class="material-icons">menu</i>
