@@ -46,6 +46,22 @@ align-content (ELEMENTOS QUEBRADOS NO EIXO TRANSVERSAL)
 * align-content: space-evenly -  Distribui todos os conteúdos igualmente com os mesmos espaços pelo cross-axis
 * align-content: space-around - Cria espaços vazios iguais que completem o container e, logo após, distribui os items centralizados em cada espaço
 
+
+Configurações dos Filhos:
+
+order (PADRÃO: 0)
+*order: x - Ordena os elementos em ordem númerica, do maior para o menor
+
+align-self (EIXO TRANSVERSAL)
+* align-self: auto - Herda as características do pai
+* align-self: flex-start - A pertir do cross-start
+* align-self: flex-end - Apartir do cross-end
+* align-self: center - Alinha no centro do cross-axis
+* align-self: stretch - Estica o conteúdo para caber preencher  
+
+
+
+
 EIXOS (axis)
 
 Existem dois eixos principais que são criados, junto as suas direções:
