@@ -6,3 +6,39 @@ Utilize o FlexBox da seguinte maneira base:
 
 Caixa container - Utilize display flex
 Caixa(s) item - Utilize Flex auto
+
+Configurações do Pai:
+
+flex-direction
+* flex-direction: row - Da esquerda para a direita
+* flex-direction: row-reverse - Da direita para a esquerda
+* flex-direction: column - De cima para baixo
+* flex-direction: column-reverse - De baixo para cima
+
+EIXOS (axis)
+
+Existem dois eixos principais que são criados, junto aos seus secundários:
+
+FLEX-DIRECTION: ROW
+* main-axis: Eixo principal, que fica na horizontal, esquerda pra direita
+* cross-axis: Eixo transversal, que fica na vertical, cima para baixo	
+
+FLEX-DIRECTION: ROW-REVERSE
+* main-axis: Eixo principal, que fica na horizontal, direita pra esquerda
+* cross-axis: Eixo transversal, que fica na vertical, cima para baixo
+
+FLEX-DIRECTION: COLUMN
+* main-axis: Eixo principal, que fica na vertical, cima para baixo
+* cross-axis: Eixo transversal, que fica na horizontal, direita pra esquerda
+
+FLEX-DIRECTION: COLUMN-REVERSE
+* main-axis: Eixo principal, que fica na vertical, baixo para cima
+* cross-axis: Eixo transversal, que fica na horizontal, direita pra esquerda
+
+Start e End:
+
+* main-start - Delimita o início do eixo main
+* main-end - Delimita o fim do eixo main
+
+* cross-start - Delimita o início do eixo cross
+* cross-end - Delimita o fim do eixo cross
