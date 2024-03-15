@@ -10,14 +10,45 @@ Caixa(s) item - Utilize Flex auto
 Configurações do Pai:
 
 flex-direction
-* flex-direction: row - Da esquerda para a direita
+* flex-direction: row - Da esquerda para a direita (PADRÃO)
 * flex-direction: row-reverse - Da direita para a esquerda
 * flex-direction: column - De cima para baixo
 * flex-direction: column-reverse - De baixo para cima
 
+flex-wrap
+* flex-wrap: nowrap - Faz com que o conteúdo não quebre, enconlhendo e se adaptando (PADRÃO)
+* flex-wrap: wrap - Quebra o conteúdo no sentido do cross-axis
+* flex-wrap: wrap-reverse - Quebra o conteúdo no sentido contrário do cross-axis
+
+flex-flow (flex-direction + flex-wrap)
+* Exemplo: flex-flow: row nowrap;
+
+justify-content (EIXO PRINCIPAL)
+* justify-content: flex-start - Alinha o conteúdo partindo do main-start (PADRÃO)
+* justify-content: flex-end - Alinha o conteúdo grudando no main-end
+* justify-content: center - Alinha o conteúdo no centro do container de acordo com o main-axis
+* justify-content: space-between - Gruda o primeiro item ao main-start e o último ao main-end, todos os outros são distribuidos igualmente
+* justify-content: space-evenly - Distribui todos os conteúdos igualmente com os mesmos espaços
+* justify-content: space-around - Cria espaços vazios iguais que completem o container e, logo após, distribui os items centralizados em cada espaço
+
+align-items (EIXO TRANSVERSAL)
+* align-items: stretch - Estica conteúdo de acordo com a altura do cross-axis (PADRÃO)
+* align-items: flex-start - Gruda o conteúdo no início do cross-start
+* align-items: flex-end - Gruda o conteúdo no fim do cross-end
+*align-items: center - Alinha o conteúdo no centro do container de acordo com o cross-axis
+
+align-content (ELEMENTOS QUEBRADOS NO EIXO TRANSVERSAL)
+* align-content: stretch - Divide o container em uma quantidade de espaços igual ao número de linhas ou colunas e separa o conteúdo neles os esticando
+* align-content: flex-start - Coloca os elementos grudados nos cross-start
+* align-content: flex-end - Coloca os elementos grudados no cross-end 
+* align-content: center - Centraliza o conteúdo a partir do croos-axis
+* align-content: space-between - Gruda o primeiro item ao cross-start e o último ao cross-end, todos os outros são distribuidos igualmente
+* align-content: space-evenly -  Distribui todos os conteúdos igualmente com os mesmos espaços pelo cross-axis
+* align-content: space-around - Cria espaços vazios iguais que completem o container e, logo após, distribui os items centralizados em cada espaço
+
 EIXOS (axis)
 
-Existem dois eixos principais que são criados, junto aos seus secundários:
+Existem dois eixos principais que são criados, junto as suas direções:
 
 FLEX-DIRECTION: ROW
 * main-axis: Eixo principal, que fica na horizontal, esquerda pra direita
