@@ -7,7 +7,7 @@ Utilize o FlexBox da seguinte maneira base:
 Caixa container - Utilize display flex
 Caixa(s) item - Utilize Flex auto
 
-Configurações do Pai:
+--> Configurações do Pai: <--
 
 flex-direction
 * flex-direction: row - Da esquerda para a direita (PADRÃO)
@@ -47,7 +47,7 @@ align-content (ELEMENTOS QUEBRADOS NO EIXO TRANSVERSAL)
 * align-content: space-around - Cria espaços vazios iguais que completem o container e, logo após, distribui os items centralizados em cada espaço
 
 
-Configurações dos Filhos:
+--> Configurações dos Filhos: <--
 
 order (PADRÃO: 0)
 *order: x - Ordena os elementos em ordem númerica, do maior para o menor
@@ -58,6 +58,18 @@ align-self (EIXO TRANSVERSAL)
 * align-self: flex-end - Apartir do cross-end
 * align-self: center - Alinha no centro do cross-axis
 * align-self: stretch - Estica o conteúdo para caber preencher  
+
+flex-basis
+* flex-basis: auto - Dita o tamanho de acordo com o tamanho do conteúdo dos itens (PADRÃO)
+* flex-basis: Xpx - Dita um tamanho específico e máximo para o item
+
+flex-grow (aumentar)
+* flex-grow: 0 - Sginifica que os itens NÃO podem crescer (PADRÃO)
+* flex-grow: 1 - Significa que os itens podem crescer 
+
+flex-shrink (diminuir)
+* flex-shrink: 1 - Siginifica que os itens podem encolher (PADRÃO)
+* flex-shrink: 0 - Significa que os itens NÃO podem enconlher
 
 
 
