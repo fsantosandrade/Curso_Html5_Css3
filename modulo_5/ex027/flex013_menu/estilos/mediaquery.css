@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 550px) {
+    body {
+        display: block;
+    }
+
+    nav {
+        margin: auto;
+    }
+
+    nav > a {
+        width: 100%;
+    }
+    
+    h1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
