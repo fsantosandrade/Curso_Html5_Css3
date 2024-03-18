@@ -7,6 +7,8 @@ Utilize o FlexBox da seguinte maneira base:
 Caixa container - Utilize display flex
 Caixa(s) item - Utilize Flex auto
 
+
+
 --> Configurações do Pai: <--
 
 flex-direction
@@ -71,6 +73,13 @@ flex-shrink (diminuir)
 * flex-shrink: 1 - Siginifica que os itens podem encolher (PADRÃO)
 * flex-shrink: 0 - Significa que os itens NÃO podem enconlher
 
+flex
+* flex: grow shrink basis - Simplifica o código com os valores de basis, grow e shrink numa única linha
+* flex: initial - Significa os valores básicos dos 3 (0 1 auto)
+* flex: none - Significa que o elemento não seja flexível (0 0 auto)
+* flex: auto - Siginifica o máximo de flexibilidade que um elemento pode possuir (1 1 auto)
+* flex: x - Quando se declara flex com um único valor você está modificando apenas o valor de grow, deixando o shrink e o basis padronizados
+
 
 
 
@@ -93,6 +102,7 @@ FLEX-DIRECTION: COLUMN
 FLEX-DIRECTION: COLUMN-REVERSE
 * main-axis: Eixo principal, que fica na vertical, baixo para cima
 * cross-axis: Eixo transversal, que fica na horizontal, direita pra esquerda
+
 
 Start e End:
 
