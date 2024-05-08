@@ -3,7 +3,7 @@ Formulários são utilizados para a criação de campos para o preenchimento de 
 Anatomia de Formulários:
 
 <form> - tag para a criação de um formulário
-(tag qualquer) - Pode-se usar <input>, <select> ou <
+(tag qualquer) - Pode-se usar <input>, <select>
 <fieldset> - tag para agrupar vários campos
 <legend> - tag para dar um título ao fieldset
 
