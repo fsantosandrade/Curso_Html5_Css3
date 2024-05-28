@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, .cont1, .cont2, footer {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.37);
+}
+
+.cont1 {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cont1 p {
+    width: 500px;
+}
+
+.cont1 iframe {
+    width: 400px;
+}
+
+.cont2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cont2 p {
+    width: 500px;
+}
+
+.cont2 iframe {
+    width: 400px;
+}
